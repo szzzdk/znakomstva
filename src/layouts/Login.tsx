@@ -5,10 +5,10 @@ import Topbar from "../components/Topbar";
 
 const Login = () => {
   return (
-    <div>
+    <div className="bg-bgLoginColor w-full h-full">
       <Topbar />
       <Header />
-      <div className="flex flex-col items-center justify-center text-center mt-20">
+      <div className="flex flex-col items-center justify-center text-center mt-32">
         <h1 className="text-5xl">Знакомства без преград</h1>
         <p className="mt-6">
           Для современного мира сплочённость команды профессионалов однозначно
