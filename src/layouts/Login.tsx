@@ -11,6 +11,7 @@ const Login = () => {
 
   return (
     <div className="relative bg-bgLoginColor w-full h-full">
+      
       <img src={isMobile? Vector3 : Vector1} alt="vector" className="h-1/2 w-20 md:w-80 md:h-auto absolute  md:bottom-0 left-0" />
       <img src={Vector2} alt="vector" className="h-1/3 w-20 md:w-80 md:h-auto absolute bottom-0 right-0" />
       <Topbar />
